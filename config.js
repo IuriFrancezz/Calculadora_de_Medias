@@ -7,7 +7,7 @@ function confirmarNota (nota1, nota2, nota3, nota4, media, total) {
     var media = document.getElementById("media").value;
 
     media = 4;
-    total = (nota1 * nota2 * nota3 * nota4) / media;
+    total = (nota1 + nota2 + nota3 + nota4) / media;
 
     document.getElementById("media").innerHTML = "A Média da tua Nota é: " + total + "%";
   }
