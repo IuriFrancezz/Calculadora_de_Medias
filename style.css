@@ -1,5 +1,14 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+title {
+  color: green;
+  font-family: fantasy;
+  display: none;
+}
+
 body{
+  height: 860px;
+  width: 1080px;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -83,7 +92,7 @@ body{
   height: 540px;
   width: 480px;
   margin-top: 10px;
-  margin-left: 710px;
+  margin-left: 720px;
 }
 
 .img{
@@ -114,7 +123,7 @@ body{
   width: 450px;
   padding: 18px;
   margin-top: 10px;
-  margin-left: 710px;
+  margin-left: 720px;
   font-size: 17px;
   background-color: #3a3a3a;
   color: white;
